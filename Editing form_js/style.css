@@ -1,0 +1,73 @@
+#wrapper1{
+	width:500px;
+	margin:0 auto;
+	}
+#content{
+	width:470;
+	height:270px;
+	border:1px solid black;
+	overflow:auto;
+	padding:15px;
+	}
+#buttons{
+	width:500px;
+	margin-top:15px;
+	}
+#editor{
+	width:470px;
+	height:300px;
+	border:1px solid black;
+	padding:15px;
+	}
+#buttonss{
+	width:200px;
+	margin:0 auto;
+	}
+#edit_style{
+	display:none;
+	}
+#edit_html{
+	display:none;
+	}
+.color_tab{
+	display:none;
+	position:absolute;
+	border:1px solid black;
+	}
+.color_tab td{
+	width:30px;
+	height:30px;
+	}
+#textarea{
+	width:470px;
+	height:200px
+	}
+#add_back{
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity:0.5;
+	z-index:1;
+	}
+#wrapper2{
+	display:none;
+	position:absolute;
+	left:25%;
+	top:0;
+	width:50%;
+	height:100%;
+	background-color:white;
+	z-index:2;
+	padding-left:30px;
+	padding-top:30px;
+	}
+#create0{
+	display:none;
+	}
+#create1{
+	display:none;
+	}

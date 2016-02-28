@@ -1,0 +1,163 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="wrapper1">
+		<div id="content">
+<p>http://demiart.ru/forum/index.php?showtopic=135282</p>
+<p>http://www.eway.in.ua/ru/cities/lviv</p>
+<p>http://demiart.ru/forum/index.php?showtopic=113774</p>
+<p>http://www.city-adm.lviv.ua/news/transport/16427-zmini-u-13-marshrutah-u-novij-transportnij-skhemi-vneseno-na-chislenni-zvernenna-meshkanciv-m-zhuk</p>
+<p>http://demiart.ru/forum/index.php?showtopic=144761</p>
+		</div>
+		<div id="buttons">
+			<div id="buttonss">
+				<form name="buttons">
+					<input type="button" name="edit" value="Редагувати" />
+					<input type="button" name="stylize" value="Стилізувати" />
+				</form>
+			</div>
+		</div>
+		<div id="editor">
+		
+			<form name="edit_html" id="edit_html">
+				<textarea name="text" id="textarea"></textarea>
+				<p>
+					<input type="button" name="save" value="Зберегти"/>
+					<input type="button" name="addd" value="Додати"/>
+				</p>
+			</form>
+			
+			
+			<form name="edit_style" id="edit_style">
+			
+				<p>Розмір тексту:
+					<input type="radio" name="sizee" checked /><span id="s0">12pt</span>
+					<input type="radio" name="sizee"/><span id="s1">14pt</span>
+					<input type="radio" name="sizee"/><span id="s2">16pt</span>
+					<input type="radio" name="sizee"/><span id="s3">18pt</span>
+					<input type="radio" name="sizee"/><span id="s4">20pt</span>
+				</p>
+				
+				<p>Лігатура:
+					<select name="font_list">
+						<option>Times New Roman</option>
+						<option>Arial</option>
+						<option>Tahoma</option>
+						<option>Verdana</option>
+						<option>Arial Black</option>
+					</select>
+				</p>
+				
+				<p>
+					<input type="button" name="fontcolor" value="Колір тексту"/>
+					<input type="button" name="backcolor" value="Колір фону"/>
+				</p>
+				
+				<p><input type="checkbox" name="boldt"/>Жирний текст</p>
+				<p><input type="checkbox" name="italict"/>Курсивний текст</p>
+				
+			</form>
+		</div>
+	</div>	
+		<div id="add_back"></div>
+		<div id="wrapper2">
+				<div id="add_html">
+					<h2>Виберить що саме ви хочете додати:</h2>
+					<form name="add_html">
+						<input type="radio" name="adds" /><span>Таблицю</span>
+						<input type="radio" name="adds" /><span>Список</span>
+					</form>
+					
+					<form name="tab_create" id="create0">
+						<p>Введіть кількість рядків таблиці:
+							<input type="text" name="tab_col" size="3" value="1"/>
+						</p>
+						<p>Введіть кількість стовпців таблиці:
+							<input type="text" name="tab_row" size="3" value="1"/>
+						</p>
+						<h3>Стилізуйте таблицю:</h3>
+						<p>Введіть ширину комірки таблиці:
+							<input type="text" name="tab_w" size="3" value="10"/>
+						</p>
+						<p>Введіть висоту комірки таблиці:
+							<input type="text" name="tab_h" size="3" value="10"/>
+						</p>
+						<p>
+							Товщина:
+							<input type="text" name="tab_size" size="3" value="1"/>
+							Тип лінії:
+							<select name="tab_line">
+								<option>solid</option>
+								<option>hidden</option>
+								<option>dotted</option>
+								<option>dashed</option>
+								<option>double</option>
+								<option>groove</option>
+								<option>ridge</option>
+								<option>inset</option>
+								<option>outset</option>
+							</select>
+							Колір лінії:
+							<select name="tab_color">
+								<option>black</option>
+								<option>red</option>
+								<option>green</option>
+								<option>blue</option>
+								<option>cyan</option>
+								<option>magenta</option>
+								<option>yellow</option>
+							</select>
+						</p>
+						<p><input type="button" name="create_butt" value="Створити таблицю"></p>
+					</form>
+					<form name="list_create" id="create1">
+						<p>Введіть кількість елементів списку:
+							<input type="text" name="list_count" size="3"/>
+							<p><input type="button" name="create_butl" value="Створити список"></p>
+						</p>
+					</form>
+				</div>
+		</div>
+	
+	
+	
+			<table class="color_tab" id="text_tab">
+			<tr>
+				<td id="a11" style="background-color:white;"></td>
+				<td id="a12" style="background-color:gray;"></td>
+				<td id="a13" style="background-color:black;"></td>
+			</tr>
+			<tr>
+				<td id="a21" style="background-color:red;"></td>
+				<td id="a22" style="background-color:green;"></td>
+				<td id="a23" style="background-color:blue;"></td>
+			</tr>
+			<tr>
+				<td id="a31" style="background-color:cyan;"></td>
+				<td id="a32" style="background-color:magenta;"></td>
+				<td id="a33" style="background-color:yellow;"></td>
+			</tr>
+		</table>
+		<table class="color_tab" id="back_tab">
+			<tr>
+				<td id="b11" style="background-color:white;"></td>
+				<td id="b12" style="background-color:gray;"></td>
+				<td id="b13" style="background-color:black;"></td>
+			</tr>
+			<tr>
+				<td id="b21" style="background-color:red;"></td>
+				<td id="b22" style="background-color:green;"></td>
+				<td id="b23" style="background-color:blue;"></td>
+			</tr>
+			<tr>
+				<td id="b31" style="background-color:cyan;"></td>
+				<td id="b32" style="background-color:magenta;"></td>
+				<td id="b33" style="background-color:yellow;"></td>
+			</tr>
+		</table>
+</body>
+</html>
